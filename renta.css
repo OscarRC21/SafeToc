@@ -1,0 +1,493 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#esconder{
+    width: 5%;
+    height: 10%;
+    background-color: #171b22;
+    position: absolute;
+    z-index: 6;
+}
+#caja-logo{
+    width: 10%;
+    position: absolute;
+    z-index: 8;
+    margin: -1.5% 0 0 3%;
+}
+#logo{
+    width: 100%;
+    height: 100%;
+}
+#barraLateral{
+    font-size: 5vw;
+    background-color: #171b22;
+    color: #ffffff;
+    opacity: .80;
+}
+#bienvenido{
+    margin-left: 4%;
+}
+#caja-logo-menu{
+    width: 40%;
+}
+#logo-menu{
+    width: 100%;
+}
+#bienvenido-menu{
+    font-size: 12px;
+    position: absolute;
+    left: 90px;
+    top: 30px;
+}
+#redes-sociales-menu{
+    width: 100%;
+    padding-top: 14%;
+}
+#caja-youtube-menu{
+    width: 14%;
+    display: inline-block;
+}
+#youtube-menu{
+    width: 100%;
+}
+#caja-facebook-menu{
+    width: 14%;
+    display: inline-block;
+}
+#facebook-menu{
+    width: 100%;
+}
+#caja-instagram-menu{
+    width: 14%;
+    display: inline-block;
+}
+#instagram-menu{
+    width: 100%;
+}
+#caja-whatsapp-menu{
+    width: 14%;
+    display: inline-block;
+}
+#whatsapp-menu{
+    width: 100%;
+}
+#caja-tiktok-menu{
+    width: 20%;
+    display: inline-block;
+}
+#tik-tok-menu{
+    width: 100%;
+}
+.material-icons{
+    color: white;
+    background-color: #171b22;
+    opacity: .70;
+    border-radius: 50%;
+    padding: 18%;
+}
+.caja-youtube{
+    width: 2%;
+    z-index: 10;
+    margin: 0 .3%;
+}
+.youtube{
+    width: 100%;
+    height: 100%;
+}
+.caja-facebook{
+    width: 2%;
+    z-index: 10;
+    margin: 0 .3%;
+}
+.facebook{
+    width: 100%;
+    height: 100%;
+}
+.caja-instagram{
+    width: 2%;
+    z-index: 10;
+    margin: 0 .3%;
+}
+.instagram{
+    width: 100%;
+    height: 100%;
+}
+.caja-whatsapp{
+    width: 2%;
+    z-index: 10;
+    margin: 0 .3%;
+}
+.whatsapp{
+    width: 100%;
+    height: 100%;
+}
+.caja-tiktok{
+    width: 2.8%;
+    z-index: 10;
+}
+.tik-tok{
+    width: 100%;
+    height: 100%;
+}
+#menu{
+    background: #171b22;
+    padding-bottom: 3%;
+}
+.hogar{
+    padding: 2%;
+    font-size: 1.2vw;
+    position: relative;
+    z-index: 6;
+}
+nav{
+    font-size: 1.4vw;
+}
+#visible{
+    position: fixed;
+    background-color: #171b22;
+    margin-top: 3%;
+    width: 100%;
+    padding: 2% 0;
+}
+#negocio{
+    width: 100%;
+    height: 100%;
+}
+#imagen{
+    width: 51%;
+    background: url(./imagenes/vender.jpg)no-repeat center center/cover;
+    padding: 25% 0;
+    float: left;
+    margin-top: 0;
+}
+.titulo-input{
+    font-size: 1.8vw;
+    text-align: left;
+    margin-left: 11%;
+    margin-bottom: 1%;
+}
+#inputs{
+    width: 48%;
+    text-align: right;
+    display: inline-block;
+}
+#propiedad{
+    margin: 3% 5% 0 4%;
+    font-size: 1.8vw;
+    width: 85%;
+    border-radius: 17px;
+    border: 3px solid #000000;
+    outline-style: none;
+}
+#enviar{
+    margin: 6% 43% 6% 0;
+    background-color: gainsboro;
+    font-size: 1.8vw;
+    border-radius: 25px;
+    width: 15%;
+    color: black;
+}
+#uno{
+    font-size: 2.6vw;
+    font-family: 'Crimson Text', serif;
+    font-weight: lighter;
+    margin-right: 5%;
+    display: block;
+}
+#dos{
+    font-size: 1.5vw;
+    font-weight: normal;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    display: block;
+}
+#linea{
+    width: 74%;
+    margin: 0 5% 0 0;
+}
+.nombre{
+    display: block;
+    margin: 0 0 3% 10%;
+    font-size: 1.8vw;
+    width: 85%;
+    border-radius: 17px;
+    border: 3px solid #000000;
+    outline-style: none;
+}
+#footer{
+    height: fit-content;
+    width: 100%;
+    background-color: #171b22;
+    float: left;
+}
+#logo2{
+    float: left;
+    height: 3%;
+    width: 10%;
+    margin: 1% 0 0 3%;
+}
+#imagenf{
+    height: 100%;
+    width: 100%;
+}
+.columna a:hover{
+    color: #ffffff;
+}
+.columna{
+    display: inline-block;
+    margin: 0 0 0 16%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.3vw;
+    font-style: normal;
+}
+.columna a{
+    display: block;
+    color: #ffffff;
+    padding: 8% 0;
+}
+#cajaLogo{
+    width: 0;
+    height: 0;
+}
+.menu-cel-abajo{
+    display: none;
+}
+.menu-cel{
+    width: 0;
+    height: 0;
+}
+@media (max-width: 1024px) {
+        .caja-youtube{
+            width: 3%;
+            margin: 0  .3% 0 75%;
+        }
+        .caja-facebook{
+            width: 3%;
+            z-index: 10;
+            margin: 0 .3%;
+        }
+        .caja-instagram{
+            width: 3%;
+            margin: 0 .3%;
+        }
+        .caja-whatsapp{
+            width: 3%;
+            margin: 0 .3%;
+        }
+        .caja-tiktok{
+            width: 4.2%;
+        }
+        #esconder{
+            width: 0;
+            height: 0;
+            }
+        #ayudarte{
+            margin-top: 90px;
+        }
+        #caja-logo{
+            width: 100px;
+            z-index: 5;
+            margin: -10px 0 0 50px;
+        }
+        #bienvenido-cel{
+            font-size: 15px;
+            position: absolute;
+        }
+        #cajaLogo{
+            z-index: 2;
+            position: fixed;
+            width: 100%;
+            height: 90px;
+            background-color: #171b22;
+            }
+        .menu-cel{
+            width: 100%;
+            height: 50%;
+            display: block;
+        }
+        .menu-cel-abajo{
+            display: contents;
+            width: 100%;
+            height: 50%;
+            display: block;
+            text-align: right;
+            padding-top: 1%;
+        }
+        .menu-cel-abajo a{
+            color: white;
+            margin: 0 3% 0 0 ;
+        }
+        .menu-cel-abajo a:hover{
+            color: white;
+        }
+        #imagen{
+            margin-top: 90px;
+        }
+        #inputs{
+            margin-top: 90px;
+        }
+    }
+    @media (max-width: 681px){
+        .menu-cel-abajo{
+            display: none;
+        }
+        .menu-cel{
+            margin-top: 38px;
+        }
+        .caja-youtube{
+            width: 5%;
+            margin: 0  .3% 0 60%;
+        }
+        .caja-facebook{
+            width: 5%;
+            z-index: 10;
+            margin: 0 .3%;
+        }
+        .caja-instagram{
+            width: 5%;
+            margin: 0 .3%;
+        }
+        .caja-whatsapp{
+            width: 5%;
+            margin: 0 .3%;
+        }
+        .caja-tiktok{
+            width: 7.6%;
+        }
+    }
+    @media (max-width: 415px){
+        .menu-cel{
+            margin-top: 60px;
+        }
+        .caja-youtube{
+            width: 5%;
+            margin: 0  .3% 0 60%;
+        }
+        .caja-facebook{
+            width: 5%;
+            z-index: 10;
+            margin: 0 .3%;
+        }
+        .caja-instagram{
+            width: 5%;
+            margin: 0 .3%;
+        }
+        .caja-whatsapp{
+            width: 5%;
+            margin: 0 .3%;
+        }
+        .caja-tiktok{
+            width: 7.6%;
+        }
+        #bienvenido-cel{
+            font-size: 14px;
+        }
+    }
+@media (max-width: 720px) {
+    .titulo-input{
+        font-size: 5vw;
+        text-align: left;
+        margin-left: 11%;
+        margin-bottom: 1%;
+        font-weight: normal;
+    }
+    #negocio{
+        width: 0%;
+        height: 0%;
+    }
+    #imagen{
+        width: 0;
+        float: none;
+        margin-top: 0;
+        display: none;
+    }
+    #inputs{
+        background: url(./imagenes/fondo-vender.jpg)no-repeat center center/cover;
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin-top: 90px;
+        padding: 20% 0;
+    }
+    #enviar{
+        margin: auto;
+            margin-top: 10%;
+            margin-bottom: 5%;
+            background-color: gainsboro;
+            font-size: 4vw;
+            padding: 0 4%;
+            border-radius: 25px;
+            width: fit-content;
+            color: black;
+    }
+    #uno{
+        font-size: 7vw;
+        font-family: 'Crimson Text', serif;
+        font-weight: normal;
+        margin-right: 0%;
+        display: block;
+        color: #000000;
+    }
+    #dos{
+        font-size: 5vw;
+        font-weight: normal;
+        margin: auto;
+        display: block;
+        color: #000000;
+        margin-bottom: 5%;
+    }
+    #linea{
+        width: 74%;
+        margin: 0 0 0 1%;
+    }
+    .nombre{
+        display: block;
+        margin: 0 7.5% 3% 7.5%;
+        font-size: 4vw;
+        width: 85%;
+        border-radius: 17px;
+        border: 1px solid #000000;
+        outline-style: none;
+    }
+    #propiedad{
+        margin: 7% 5% 0 4%;
+        font-size: 4.5vw;
+        width: 85%;
+        border-radius: 17px;
+        border: 1px solid #000000;
+        outline-style: none;
+    }
+    #footer{
+        background-color: #171b22;
+    }
+    #logo2{
+        width: 20%;
+        margin: 0;
+    }
+    #imagenf{
+        height: 100%;
+        width: 100%;
+    }
+    .columna a:hover{
+        color: #ffffff;
+    }
+    .columna{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        color: #ffffff;
+        font-size: 2.7vw;
+        font-style: normal;
+        padding: 0;
+    }
+    .columna a{
+        display: inline-block;
+        color: #ffffff;
+        margin: 2% 2%;
+        padding: 0;
+    }
+    }
